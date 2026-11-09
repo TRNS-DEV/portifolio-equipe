@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UECI | Portfólio da Equipe</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho / Navegação -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">UECI<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre a Startup</a></li>
+          <li><a href="#equipe">Nossa Equipe</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="container hero-content">
+      <h1>Ecossistema Urbano de Coleta Inteligente</h1>
+      <p>Conectando tecnologia, dados e pessoas para revolucionar a gestão de resíduos urbanos.</p>
+      <a href="#equipe" class="btn btn-primary">Conheça a Equipe</a>
+    </div>
+  </section>
+
+  <!-- Sobre a Startup -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <h2 class="section-title">O que significa UECI?</h2>
+      <p class="section-description">
+        O nome representa nossa visão de conectar tecnologia, pessoas, dados e serviços para desenvolver soluções inteligentes para a coleta urbana. Unimos a infraestrutura das cidades à sustentabilidade socioambiental.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção da Equipe (Portfólio) -->
+  <section id="equipe" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Nossa Equipe</h2>
+      <p class="section-subtitle">Profissionais qualificados transformando ideias em código.</p>
+      
+      <div class="cards-grid">
+        <!-- Card 1 -->
+        <article class="card">
+          <div class="card-avatar">
+            <img src="./imagens/thallyson.jpg" alt="Foto de Thallyson">
+          </div>
+          <div class="card-body">
+            <h3>Thallyson</h3>
+            <span class="badge badge-leader">Líder de Time & Dev</span>
+            <p>Responsável pela liderança técnica, arquitetura de banco de dados e integração do ecossistema.</p>
+            <div class="tags">
+              <span>HTML/CSS</span>
+              <span>JS / React</span>
+              <span>Node.js</span>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/TRNS-DEV" target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/thallyson-raphael-2501ab3b3/" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <div class="card-avatar">
+            <img src="./imagens/vitor.jpg" alt="Foto de Vitor">
+          </div>
+          <div class="card-body">
+            <h3>Vitor</h3>
+            <span class="badge">QA / Front-end</span>
+            <p>Garantia de qualidade da aplicação, testes funcionais e desenvolvimento de interfaces.</p>
+            <div class="tags">
+              <span>Front-end</span>
+              <span>QA / Testes</span>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/vitorsouza1810-tech" target="_blank">GitHub</a>
+              <a href="#" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <div class="card-avatar">
+            <img src="assets/images/danilo.jpg" alt="Foto de Danilo">
+          </div>
+          <div class="card-body">
+            <h3>Danilo</h3>
+            <span class="badge">Project Analyst</span>
+            <p>Mapeamento de requisitos, organização de backlog no Jira e especificação de processos.</p>
+            <div class="tags">
+              <span>Requisitos</span>
+              <span>Scrum / Jira</span>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/Dan-1177" target="_blank">GitHub</a>
+              <a href="#" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card">
+          <div class="card-avatar">
+            <img src="assets/images/caio.jpg" alt="Foto de Caio">
+          </div>
+          <div class="card-body">
+            <h3>Caio</h3>
+            <span class="badge">Prog. Backend</span>
+            <p>Desenvolvimento da API RESTful, manipulação de banco de dados e regras de negócio.</p>
+            <div class="tags">
+              <span>Node.js</span>
+              <span>Sequelize</span>
+              <span>SQLite</span>
+            </div>
+            <div class="social-links">
+              <a href="#" target="_blank">GitHub</a>
+              <a href="#" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card">
+          <div class="card-avatar">
+            <img src="./imagens/matheus.jpg" alt="Foto de Matheus">
+          </div>
+          <div class="card-body">
+            <h3>Matheus</h3>
+            <span class="badge">UI/UX Designer</span>
+            <p>Criação de protótipos de alta fidelidade, arquitetura de informação e experiência do usuário.</p>
+            <div class="tags">
+              <span>Figma</span>
+              <span>UI/UX</span>
+              <span>Prototipagem</span>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/MatheusPassione" target="_blank">GitHub</a>
+              <a href="https://www.linkedin.com/in/matheus-kau%C3%A3-6ba472327?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 TIME UECI. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
